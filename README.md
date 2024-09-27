@@ -5,7 +5,7 @@ A passionate AI/ML and Blockchain enthusiast from India 🇮🇳.
 - 🔭 I’m currently working on **A.T.H.E.N.A**, my AI-based project.
 - 🌱 I’m currently learning **Data Science, Blockchain, and Generative AI**.
 - 👯 I’m looking to collaborate on **AI/ML projects** and **eSports content creation**.
-- 📫 How to reach me: akshat.tech@domain.com
+- 📫 How to reach me: akshat25chauhan.2005.com
 - ⚡ Fun fact: I’m always down for **gaming** or a **tech brainstorming session**.
 
 ## Connect with me:
