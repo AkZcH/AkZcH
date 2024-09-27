@@ -14,7 +14,7 @@ A passionate AI/ML and Blockchain enthusiast from India 🇮🇳.
 [![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)](https://github.com/AkZcH)
 
 ## Languages and Tools:
-![Python](https://img.shields.io/badge/-Python-000?style=for-the-badge&logo=python)
+![Python](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Python_logo_01.svg/2048px-Python_logo_01.svg.png)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000?style=for-the-badge&logo=javascript)
 ![React](https://img.shields.io/badge/-React-000?style=for-the-badge&logo=react)
 ![Node.js](https://img.shields.io/badge/-Node.js-000?style=for-the-badge&logo=node.js)
