@@ -9,9 +9,9 @@ A passionate AI/ML and Blockchain enthusiast from India 🇮🇳.
 - ⚡ Fun fact: I’m always down for **gaming** or a **tech brainstorming session**.
 
 ## Connect with me:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/akshatchauhan)
-[![Instagram](https://img.shields.io/badge/Instagram-ff69b4?style=for-the-badge&logo=instagram)](https://www.instagram.com/akshatchauhan)
-[![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)](https://github.com/akshatchauhan)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/akshat-chauhan-ai)
+[![Instagram](https://img.shields.io/badge/Instagram-ff69b4?style=for-the-badge&logo=instagram)](https://www.instagram.com/akzch)
+[![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)](https://github.com/AkZcH)
 
 ## Languages and Tools:
 ![Python](https://img.shields.io/badge/-Python-000?style=for-the-badge&logo=python)
