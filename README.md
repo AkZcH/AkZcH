@@ -88,7 +88,8 @@ A passionate AI/ML and Blockchain enthusiast from India 🇮🇳.
 
 </p>
 
-
+## Fun Fact:
+I am consistently inconsistent
 
 ---
 
