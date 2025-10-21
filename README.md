@@ -85,6 +85,12 @@
 </p>
 
 ---
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=AkZcH&theme=react&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=AkZcH&theme=react&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=AkZcH&theme=react&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+---
 
 ## 🎯 Fun Facts About Me
 - I once built a mini-project that crashed my PC — and I still count it as a win.  
