@@ -25,7 +25,6 @@
   <a href="https://www.python.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40"/></a>
   <a href="https://isocpp.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/></a>
   <a href="https://www.cprogramming.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" height="40"/></a>
-  <a href="https://www.rust-lang.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" width="40" height="40"/></a>
   <a href="https://go.dev/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="40" height="40"/></a>
 </p>
 
@@ -96,7 +95,6 @@
 - I once built a mini-project that crashed my PC — and I still count it as a win.  
 - I have a weird superpower: I can think about *three* different AI ideas while debugging a blockchain contract.  
 - My caffeine intake is directly proportional to my GPU usage.  
-- My 5-year-old self promised I’d become better than everyone — and that promise still drives me daily.  
 - I’ve written more code at 2 AM than during the rest of the day combined.  
 - “Consistently inconsistent” isn’t a flaw — it’s how innovation happens.  
 
