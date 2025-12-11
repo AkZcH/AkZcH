@@ -1,13 +1,13 @@
 # 👋 Hi, I'm Akshat Chauhan  
 
-🚀 A Systems Architect specializing in **Java Spring Boot**, **AWS Data Engineering**, and **DevOps Automation**.  
-I build scalable, high-performance backend systems and cloud architectures designed for reliability, speed, and growth.
+🚀 Backend Engineer focused on **Java Spring Boot**, **cloud-native architecture**, and **systems-level DevOps fundamentals**.  
+I build scalable, fault-tolerant backend services and understand the real-world infrastructure required to run them reliably in production.
 
-- 🔭 Currently architecting distributed backend systems using **Spring Boot**, **AWS Redshift**, **Glue**, and **Lambda**.  
-- 🌱 Exploring large-scale data processing, microservices patterns, and cloud-native infrastructure.  
-- 🤝 Open to collaborating on **enterprise backends**, **data engineering pipelines**, and **DevOps CI/CD automation**.  
+- 🔭 Currently engineering distributed backend services with **Spring Boot**, **AWS**, and containerized deployments.  
+- 🌱 Deepening my expertise in system design, performance tooling, and cloud architecture patterns.  
+- 🤝 Open to collaborating on **backend services**, **distributed systems**, and **DevOps automation pipelines**.  
 - 📫 Reach me at: **akshat25chauhan.2005@gmail.com**  
-- ⚡ Fun fact: If it can be automated, I’ve probably already written a pipeline for it.  
+- ⚡ Fun fact: I debug infra failures faster than most people debug their code.  
 
 ---
 
@@ -30,18 +30,14 @@ I build scalable, high-performance backend systems and cloud architectures desig
 
 ---
 
-## ☁️ AWS Data Engineering
+## ☁️ Cloud & Production Deployment
 <p align="left">
-  <a href="https://aws.amazon.com/redshift/"><img src="https://www.vectorlogo.zone/logos/amazon_redshift/amazon_redshift-icon.svg" width="40" height="40"/></a>
-  <a href="https://aws.amazon.com/glue/"><img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" width="40" height="40"/></a>
-  <a href="https://aws.amazon.com/s3/"><img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" width="40" height="40"/></a>
-  <a href="https://aws.amazon.com/lambda/"><img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" width="40" height="40"/></a>
-  <a href="https://aws.amazon.com/athena/"><img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" width="40" height="40"/></a>
+<a href="https://aws.amazon.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40" height="40"/></a>  <a href="https://aws.amazon.com/lambda/"><img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" width="40" height="40"/></a>
 </p>
 
 ---
 
-## 🛠️ DevOps & Automation
+## 🛠️ DevOps & Reliability Engineering
 <p align="left">
   <a href="https://www.linux.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" height="40"/></a>
   <a href="https://www.docker.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="40" height="40"/></a>
@@ -55,10 +51,9 @@ I build scalable, high-performance backend systems and cloud architectures desig
 
 ## 🧩 System Design & Architecture
 <p align="left">
-  <a href="https://www.kernel.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" height="40"/></a>
-  <a href="https://www.nginx.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" width="40" height="40"/></a>
   <a href="https://redis.io/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="40" height="40"/></a>
   <a href="https://www.rabbitmq.com/"><img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" width="40" height="40"/></a>
+  <a href="https://www.nginx.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" width="40" height="40"/></a>
 </p>
 
 ---
@@ -71,12 +66,11 @@ I build scalable, high-performance backend systems and cloud architectures desig
 ---
 
 ## 🎯 Fun Facts About Me
-- I architect systems before I write code.  
-- I break monoliths for fun — and build scalable microservices to replace them.  
-- My favorite debugging tool is structured logging (seriously).  
-- I treat DevOps pipelines like LEGO sets.  
-- “If it scales, it ships” — my engineering philosophy.  
+- I once built a mini-project that crashed my PC — and I still count it as a win.
+- I have a weird superpower: I can think about *three* different AI ideas while debugging a data pipeline.
+- My caffeine intake is directly proportional to my GPU usage. - I’ve written more code at 2 AM than during the rest of the day combined. - “Consistently inconsistent” isn’t a flaw — it’s how innovation happens.
+- “Reliability is a feature” — my engineering philosophy.  
 
 ---
 
-💬 *Let’s connect if you want to build scalable systems, automate infrastructure, or design high-performance backends.*  
+💬 *Let’s connect if you want to build scalable systems, automate infrastructure, or design high-performance backend architecture.*  
