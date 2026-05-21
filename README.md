@@ -1,77 +1,62 @@
-# 👋 Hi, I'm Akshat Chauhan  
+# Akshat Chauhan
 
-🚀 Backend Engineer focused on **Java Spring Boot**, **cloud-native architecture**, and **systems-level DevOps fundamentals**.  
-I build scalable, fault-tolerant backend services and understand the real-world infrastructure required to run them reliably in production.
-
-- 🔭 Currently engineering distributed backend services with **Spring Boot**, **AWS**, and containerized deployments.  
-- 🌱 Deepening my expertise in system design, performance tooling, and cloud architecture patterns.  
-- 🤝 Open to collaborating on **backend services**, **distributed systems**, and **DevOps automation pipelines**.  
-- 📫 Reach me at: **akshat25chauhan.2005@gmail.com**  
-- ⚡ Fun fact: I debug infra failures faster than most people debug their code.  
+**Systems Programmer** · Rust · C/C++ · Linux internals · Distributed systems
 
 ---
 
-## 🌐 Connect with Me
-<p align="left" dir="auto">
-<a href="https://instagram.com/akzch" rel="nofollow"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="30" width="40"></a>
-<a href="https://twitter.com/JustAkzch" rel="nofollow"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" height="30" width="40"></a>
-<a href="https://linkedin.com/in/akshat-chauhan-ai" rel="nofollow"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40"></a>
-</p>
+I write systems software. Most of what I build lives close to the metal — memory allocators, low-level concurrency primitives, Linux kernel interfaces, performance-critical tooling in Rust and C. I care about how computers actually work: what the allocator is doing, what the scheduler sees, what the kernel does when your abstraction leaks.
+
+Rust is my primary language. It's where I do my most serious work, and it's what most of my projects are in.
+
+I also work across backend infrastructure and cloud systems — distributed services, Kubernetes, AWS — which keeps me honest about how low-level decisions ripple upward into production behaviour.
 
 ---
 
-## 💻 Backend & Systems Development
-<p align="left">
-  <a href="https://www.java.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40" height="40"/></a>
-  <a href="https://go.dev/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="40" height="40"/></a>
-  <a href="https://spring.io/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" width="40" height="40"/></a>
-  <a href="https://www.mysql.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="40" height="40"/></a>
-  <a href="https://www.postgresql.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="40" height="40"/></a>
-</p>
+## Stack
+
+**Primary**
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+**Also work with**
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 
 ---
 
-## ☁️ Cloud & Production Deployment
-<p align="left">
-<a href="https://aws.amazon.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40" height="40"/></a>  <a href="https://aws.amazon.com/lambda/"><img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" width="40" height="40"/></a>
-</p>
+## Areas of Focus
+
+**Systems programming** — This is the core. Memory management, allocators, concurrency primitives, unsafe code that has to be correct. Writing software where the abstraction budget is zero and performance is a hard constraint.
+
+**Linux internals** — Kernel interfaces, syscall mechanics, scheduler behaviour, eBPF. Understanding what the OS is actually doing so you can work with it instead of around it.
+
+**Distributed systems** — Consistency models, fault tolerance, consensus. Interested in the gap between theoretical guarantees and what actually happens in production.
+
+**Backend & cloud infrastructure** — Distributed services in Go and Java, container orchestration on Kubernetes, AWS. Where the systems thinking gets applied at scale.
 
 ---
 
-## 🛠️ DevOps & Reliability Engineering
-<p align="left">
-  <a href="https://www.linux.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" height="40"/></a>
-  <a href="https://www.docker.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="40" height="40"/></a>
-  <a href="https://www.jenkins.io/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" width="40" height="40"/></a>
-  <a href="https://kubernetes.io/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="40" height="40"/></a>
-  <a href="https://www.terraform.io/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg" width="40" height="40"/></a>
-  <a href="https://nginx.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" width="40" height="40"/></a>
-</p>
+## Currently Exploring
+
+- Rust async runtimes and zero-cost abstractions
+- eBPF for observability and network control
+- Distributed consensus — Raft, and how real databases implement it
+- AWS internals: VPC networking, IAM boundary design, EKS cluster management
 
 ---
 
-## 🧩 System Design & Architecture
-<p align="left">
-  <a href="https://redis.io/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="40" height="40"/></a>
-  <a href="https://www.rabbitmq.com/"><img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" width="40" height="40"/></a>
-  <a href="https://www.nginx.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" width="40" height="40"/></a>
-</p>
+## Contact
 
----
+[LinkedIn](https://linkedin.com/in/akshat-chauhan)</br>
+Email: akshatchauhan.dev@gmail.com
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=AkZcH&theme=react&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=AkZcH&theme=react&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=AkZcH&theme=react&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
----
-
-## 🎯 Fun Facts About Me
-- I once built a mini-project that crashed my PC — and I still count it as a win.
-- I have a weird superpower: I can think about *three* different AI ideas while debugging a data pipeline.
-- My caffeine intake is directly proportional to my GPU usage. - I’ve written more code at 2 AM than during the rest of the day combined. - “Consistently inconsistent” isn’t a flaw — it’s how innovation happens.
-- “Reliability is a feature” — my engineering philosophy.  
-
----
-
-💬 *Let’s connect if you want to build scalable systems, automate infrastructure, or design high-performance backend architecture.*  
+> *"Make it work, make it right, make it fast — in that order, and never skip the last step."*
