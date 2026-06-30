@@ -1,62 +1,73 @@
 # Akshat Chauhan
 
-**Systems Programmer** · Rust · C/C++ · Linux internals · Distributed systems
+**Systems Engineer** · Rust · Kubernetes · Distributed Systems · Cloud Infrastructure
 
 ---
 
-I write systems software. Most of what I build lives close to the metal — memory allocators, low-level concurrency primitives, Linux kernel interfaces, performance-critical tooling in Rust and C. I care about how computers actually work: what the allocator is doing, what the scheduler sees, what the kernel does when your abstraction leaks.
-
-Rust is my primary language. It's where I do my most serious work, and it's what most of my projects are in.
-
-I also work across backend infrastructure and cloud systems — distributed services, Kubernetes, AWS — which keeps me honest about how low-level decisions ripple upward into production behaviour.
+I build **reliable, observable, and scalable systems** that run in production. I enjoy working across the full stack — from low-level systems software to cloud-native infrastructure — with a strong focus on how low-level decisions impact real-world reliability, performance, and operations.
 
 ---
 
 ## Stack
 
-**Primary**
+**Core / Foundational**
+- **Operating Systems** — Linux (Ubuntu, Fedora), Unix, Windows Server
+- **Scripting & Automation** — Bash, Python, PowerShell, Go
+- **Version Control & CI/CD** — Git, GitHub/GitLab, GitHub Actions
 
+**Infrastructure & Cloud**
+- **Cloud Platforms** — AWS (primary), Google Cloud
+- **Containerization & Orchestration** — Docker, Kubernetes
+- **Infrastructure as Code** — Terraform, Ansible
+
+**Monitoring & Observability**
+- Prometheus, Grafana, Datadog
+
+**Networking & Distributed Systems**
+- Protocols: TCP/IP, HTTP/gRPC, WebSockets
+- Tools & Concepts: Load balancing, Raft/Paxos consensus, service meshes (Istio), PostgreSQL, Redis, Kafka
+
+**Languages**
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
-**Also work with**
-
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 
 ---
 
 ## Areas of Focus
 
-**Systems programming** — This is the core. Memory management, allocators, concurrency primitives, unsafe code that has to be correct. Writing software where the abstraction budget is zero and performance is a hard constraint.
+**Distributed Systems & Reliability** — Building systems that handle failure gracefully, maintain consistency, and scale horizontally (SmartQueue, consensus explorations).
 
-**Linux internals** — Kernel interfaces, syscall mechanics, scheduler behaviour, eBPF. Understanding what the OS is actually doing so you can work with it instead of around it.
+**Cloud-Native Infrastructure** — Designing and operating platforms on Kubernetes and AWS with strong observability and automation.
 
-**Distributed systems** — Consistency models, fault tolerance, consensus. Interested in the gap between theoretical guarantees and what actually happens in production.
+**Systems Programming** — Low-level Rust and Linux internals (memory management, concurrency, syscall tracing) that power high-performance components.
 
-**Backend & cloud infrastructure** — Distributed services in Go and Java, container orchestration on Kubernetes, AWS. Where the systems thinking gets applied at scale.
+**Production Mindset** — I write software assuming I’ll be the one paged when it breaks.
 
 ---
 
 ## Currently Exploring
 
-- Rust async runtimes and zero-cost abstractions
-- eBPF for observability and network control
-- Distributed consensus — Raft, and how real databases implement it
-- AWS internals: VPC networking, IAM boundary design, EKS cluster management
+- Advanced Kubernetes patterns (operators, custom controllers)
+- eBPF for observability and runtime security
+- Distributed consensus algorithms and production database internals
+- SRE practices: error budgets, toil reduction, and chaos engineering
+
+---
+
+## Featured Projects
+
+- **[RavenMQ](https://github.com/AkZcH/SmartQueue)** — Production-grade distributed task scheduler with LSTM-based runtime prediction, leader election, exactly-once semantics, and Kubernetes-native autoscaling.
+- **[EchoTrap](https://github.com/AkZcH/EchoTrap)** — Intelligent async TCP honeypot built with Tokio for attack detection and dynamic evasion.
+- **[SysRift](https://github.com/AkZcH/SysRift)** — ptrace-based syscall recorder/replayer for deterministic debugging of non-deterministic behavior.
 
 ---
 
 ## Contact
 
-[LinkedIn](https://linkedin.com/in/akshat-chauhan)</br>
+[LinkedIn](https://linkedin.com/in/akshat-chauhan)  
 Email: akshatchauhan.dev@gmail.com
 
-> *"Make it work, make it right, make it fast — in that order, and never skip the last step."*
+> "Make it work, make it right, make it fast, in that order; and never skip the last step."
