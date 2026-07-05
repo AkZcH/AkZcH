@@ -1,73 +1,58 @@
 # Akshat Chauhan
 
-**Systems Engineer** · Rust · Kubernetes · Distributed Systems · Cloud Infrastructure
+**Systems Engineer** — low-level foundations, distributed systems on top.
 
 ---
 
-I build **reliable, observable, and scalable systems** that run in production. I enjoy working across the full stack — from low-level systems software to cloud-native infrastructure — with a strong focus on how low-level decisions impact real-world reliability, performance, and operations.
+I like the layer where things actually break: syscalls, consensus, network partitions, the 3 a.m. page nobody wants. I build systems that fail loudly in staging so they don't fail quietly in production — and when they do fail anyway, I'd rather be the person calmly reading the stack trace than the one refreshing the dashboard in a panic.
+
+Most of what's below started as "I don't fully understand why this breaks" and turned into a project once I got annoyed enough to find out.
 
 ---
 
-## Stack
+## What I actually work with
 
-**Core / Foundational**
-- **Operating Systems** — Linux (Ubuntu, Fedora), Unix, Windows Server
-- **Scripting & Automation** — Bash, Python, PowerShell, Go
-- **Version Control & CI/CD** — Git, GitHub/GitLab, GitHub Actions
+**Systems & Languages**
+Rust (primary — memory management, concurrency, `ptrace`/syscall-level work), Go, C, TypeScript. Comfortable enough in Linux internals to trace a syscall by hand before reaching for a wrapper library.
 
-**Infrastructure & Cloud**
-- **Cloud Platforms** — AWS (primary), Google Cloud
-- **Containerization & Orchestration** — Docker, Kubernetes
-- **Infrastructure as Code** — Terraform, Ansible
+**Infra I've actually run, not just read about**
+Docker, Kubernetes (HPA/autoscaling), PostgreSQL (including the fun failure modes — see blog), Redis, GitHub Actions CI.
 
-**Monitoring & Observability**
-- Prometheus, Grafana, Datadog
-
-**Networking & Distributed Systems**
-- Protocols: TCP/IP, HTTP/gRPC, WebSockets
-- Tools & Concepts: Load balancing, Raft/Paxos consensus, service meshes (Istio), PostgreSQL, Redis, Kafka
-
-**Languages**
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+**Distributed systems concepts I'm actively building against**
+Leader election, consensus (Raft/Paxos — studied and prototyped, not production-hardened yet), config propagation, WAL design, deterministic replay of non-deterministic failures.
 
 ---
 
-## Areas of Focus
+## Currently going deep on
 
-**Distributed Systems & Reliability** — Building systems that handle failure gracefully, maintain consistency, and scale horizontally (SmartQueue, consensus explorations).
+- Rust, properly this time — first-principles, not pattern-matched from tutorials
+- eBPF for observability and syscall-level tracing
+- Distributed config propagation and consensus (see: Herald)
+- Debugging things that only break in Docker, on Windows, at the worst possible time
 
-**Cloud-Native Infrastructure** — Designing and operating platforms on Kubernetes and AWS with strong observability and automation.
-
-**Systems Programming** — Low-level Rust and Linux internals (memory management, concurrency, syscall tracing) that power high-performance components.
-
-**Production Mindset** — I write software assuming I’ll be the one paged when it breaks.
-
----
-
-## Currently Exploring
-
-- Advanced Kubernetes patterns (operators, custom controllers)
-- eBPF for observability and runtime security
-- Distributed consensus algorithms and production database internals
-- SRE practices: error budgets, toil reduction, and chaos engineering
+I don't list Terraform/Ansible/service mesh/observability-stack tooling here — I've read about them, haven't shipped with them, and I'd rather you trust the things I do claim.
 
 ---
 
-## Featured Projects
+## Featured Work
 
-- **[RavenMQ](https://github.com/AkZcH/SmartQueue)** — Production-grade distributed task scheduler with LSTM-based runtime prediction, leader election, exactly-once semantics, and Kubernetes-native autoscaling.
-- **[EchoTrap](https://github.com/AkZcH/EchoTrap)** — Intelligent async TCP honeypot built with Tokio for attack detection and dynamic evasion.
-- **[SysRift](https://github.com/AkZcH/SysRift)** — ptrace-based syscall recorder/replayer for deterministic debugging of non-deterministic behavior.
+- **[Herald](https://github.com/AkZcH/Herald)** — Self-hosted distributed config propagation engine, Go. Built to survive the kind of partial-failure scenarios that take down config-driven systems silently.
+- **[SysRift](https://github.com/AkZcH/SysRift)** — `ptrace`-based syscall recorder/replayer for deterministic debugging of non-deterministic bugs. Rust, multi-process tracing via `PTRACE_O_TRACEFORK`.
+- **[RavenMQ](https://github.com/AkZcH/SmartQueue)** — Distributed task scheduler: leader election via Postgres advisory locks, Kubernetes-native autoscaling, LSTM-based load prediction.
+- **[EchoTrap](https://github.com/AkZcH/EchoTrap)** — Async TCP honeypot in Tokio for attack detection and evasion behavior.
+
+---
+
+## Writing
+
+I write up the incidents, not just the wins. Recent: debugging why Postgres 16's SCRAM-SHA-256 change silently broke Go connections on Windows/Docker Desktop, and what that says about assuming your auth stack hasn't changed under you.
+
+[Blog →](https://akshatsystems.vercel.app)
 
 ---
 
 ## Contact
 
-[LinkedIn](https://linkedin.com/in/akshat-chauhan)  
-Email: akshatchauhan.dev@gmail.com
+[LinkedIn](https://linkedin.com/in/akshat-chauhan) · akshatchauhan.dev@gmail.com
 
-> "Make it work, make it right, make it fast, in that order; and never skip the last step."
+> Make it work, make it right, make it fast — and write down what broke along the way.
