@@ -47,7 +47,7 @@ I don't list Terraform/Ansible/service mesh/observability-stack tooling here —
 
 I write up the incidents, not just the wins. Recent: debugging why Postgres 16's SCRAM-SHA-256 change silently broke Go connections on Windows/Docker Desktop, and what that says about assuming your auth stack hasn't changed under you.
 
-[Blog →](https://akshatsystems.vercel.app)
+[Blog →](https://akshatsystems.vercel.app/writings/)
 
 ---
 
